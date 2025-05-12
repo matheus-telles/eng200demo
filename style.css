@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOdu1aB.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAewA.woff2') format('woff2');
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #08645c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .restaurante {
+    background: white;
+    padding: 1rem;
+    border-left: 10px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .restaurante h2 {
+    margin-top: 0;
+  }
+  
+  .restaurante a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #08645c;
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  .restaurante a:hover {
+    text-decoration: underline;
+  }
+  
+  .verde {
+    border-left-color: green;
+  }
+  
+  .laranja {
+    border-left-color: orange;
+  }
+  
+  .vermelho {
+    border-left-color: red;
+  }
+  
+  .amarelo {
+    border-left-color: goldenrod;
+  }
+  
